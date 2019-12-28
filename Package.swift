@@ -7,6 +7,8 @@ let package = Package(
         .library(name: "AFNetworking", targets: ["AFNetworking"]),
     ],
     targets: [
-        .target(name: "AFNetworking")
+        .target(
+            name: "AFNetworking",
+            sources: ["./AFNetworking"])
     ]
 )
