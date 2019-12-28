@@ -9,6 +9,6 @@ let package = Package(
     targets: [
         .target(
             name: "AFNetworking",
-            sources: ["./AFNetworking"])
+            path: "./AFNetworking")
     ]
 )
